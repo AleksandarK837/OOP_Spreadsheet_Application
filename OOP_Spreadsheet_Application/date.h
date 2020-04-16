@@ -15,9 +15,9 @@ private:
 	long number;
 
 public:
-	virtual Cell *clone() const;
-	virtual const char *printCell() const;
-	virtual const double getNumber() const;
+	Cell *clone() const override;
+	const char *printCell() const override;
+	const double getNumber() const override;
 
 private:
 	void convertToNumber() override;

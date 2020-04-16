@@ -17,7 +17,7 @@ public:
 	const char *printCell() const override;
 
 private:
-	virtual void convertToNumber();
+	void convertToNumber() override;
 };
 
 #endif // !_IntegerNumber
